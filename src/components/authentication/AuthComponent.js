@@ -98,7 +98,7 @@ class AuthComponent extends Component {
             <div className="name">{this.state.name}</div>
             <div className="email">{this.state.email}</div>
             {!this.state.login ? <div id="loginButton" type="button"></div> : null}
-            {this.state.login ? <button type="button" className="google-button__text" onClick={this.logout}>Logout</button> : null}
+            {this.state.login ? <button type="button" className="google-button-logout" onClick={this.logout}>Logout</button> : null}
           </div>
         </div>
 
